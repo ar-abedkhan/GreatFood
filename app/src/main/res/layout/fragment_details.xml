@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white_background"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@color/sky"
+                android:id="@+id/back"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_180sdp"
+                android:layout_height="@dimen/_180sdp"
+                android:src="@drawable/food1"
+                app:civ_border_width="@dimen/_2sdp"
+                android:id="@+id/foodImg"
+                app:civ_border_color="@color/pink"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/back"
+                app:layout_constraintBottom_toBottomOf="@id/back"
+                />
+
+
+
+
+            <TextView
+                app:layout_constraintTop_toBottomOf="@id/foodImg"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food name"
+                android:fontFamily="@font/abril_fatface"
+                android:id="@+id/foodName"
+                android:textColor="@color/black_textColor"
+                android:textSize="@dimen/_18sdp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/foodName"
+                android:id="@+id/topcard"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_marginStart="@dimen/_8sdp"
+                app:cardCornerRadius="@dimen/_10sdp"
+                app:cardElevation="@dimen/_10sdp"
+                >
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/resturent"
+                        android:layout_width="@dimen/_110sdp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_5sdp"
+
+                        >
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Price"
+                            android:textColor="@color/black_textColor"
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="500 tk"
+                            android:id="@+id/foodPrice"
+                            android:textColor="@color/black"
+                            android:layout_marginBottom="@dimen/_2sdp"
+                            android:maxWidth="@dimen/_150sdp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:paddingEnd="@dimen/_5sdp"
+                            android:textSize="@dimen/_14sdp"
+                            android:textAlignment="center"
+                            />
+
+
+
+                    </LinearLayout>
+
+
+                    <View
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        android:layout_width="@dimen/_2sdp"
+                        android:id="@+id/view"
+                        android:layout_height="@dimen/_35sdp"
+                        app:layout_constraintStart_toStartOf="@id/resturent"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:background="#68000000"
+                        />
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_190sdp"
+                        android:layout_height="wrap_content"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        >
+
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Location"
+                            android:textColor="@color/black_textColor"
+                            android:textSize="@dimen/_14sdp"
+                            android:layout_gravity="center"
+android:fontFamily="@font/poppins_medium"
+                            android:gravity="center"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/fullLocation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginBottom="@dimen/_2sdp"
+                            android:paddingStart="@dimen/_5sdp"
+                            android:paddingEnd="@dimen/_5sdp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="A block,halishahar"
+                            android:textAlignment="center"
+                            android:textColor="@color/purple_700"
+                            android:textSize="@dimen/_14sdp" />
+
+
+                    </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_textColor"
+                android:textSize="@dimen/_18sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="Afgan resturent"
+                android:textStyle="bold"
+                android:maxLines="2"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/topcard"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:paddingStart="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:id="@+id/resturentName"
+                />
+
+
+
+
+            <TextView
+                android:background="@drawable/tool"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black_textColor"
+                android:textSize="@dimen/_15sdp"
+                android:text="the srtory will herertory will herertoryry will herertoryry will herertoryry will herertoryry will herertoryry will herertoryry will herertoryry will herertory will herertory will herertory will herertory will herertory will herertory will herertory will herertory will herertory will herertory will herertory will herertory will herertory will herertory will here"
+                android:layout_marginTop="@dimen/_10sdp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/resturentName"
+                android:fontFamily="@font/poppins_medium"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:paddingTop="@dimen/_25sdp"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginEnd="@dimen/_3sdp"
+                android:paddingBottom="@dimen/_15sdp"
+                android:id="@+id/mainDescription"
+                />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

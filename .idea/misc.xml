@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/back.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/tool.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/white.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/whiteback.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/activity_drawer.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/activity_splash_screen.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/foodrecyclerdesign.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_add.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_details.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_layout.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_logein.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_registration.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/nav_header.xml" value="0.23541666666666666" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/toolbar.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/menu/top_menu.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/menu/topcornermenu.xml" value="0.23645833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

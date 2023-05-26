@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "426865520976",
+    "project_id": "great-food-df3e4",
+    "storage_bucket": "great-food-df3e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426865520976:android:f43496ce258b6ace55fc55",
+        "android_client_info": {
+          "package_name": "com.abedkhan.greatfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426865520976-c01u2c1bdm7nt883oevpst6p6u1kc1p4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsrz1voX7ehg4eptX4Xcl2D5vuSSi3E-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426865520976-c01u2c1bdm7nt883oevpst6p6u1kc1p4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
