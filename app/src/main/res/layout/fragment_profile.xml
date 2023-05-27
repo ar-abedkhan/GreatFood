@@ -1,14 +1,255 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragmrnt.ProfileFragment">
+    android:padding="@dimen/_10sdp"
+    android:background="@color/white"
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+
+
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="@dimen/_150sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/sky"
+        android:id="@+id/back"
+        />
 
-</FrameLayout>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo_nav_header"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="@dimen/_100sdp"
+        app:civ_border_color="@color/white"
+        app:civ_border_width="@dimen/_2sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/devolopersettings"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="5dp"
+
+        />
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="@dimen/_10sdp"
+        android:id="@+id/card"
+        app:cardCornerRadius="@dimen/_10sdp"
+        app:cardBackgroundColor="@color/white"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        app:layout_constraintTop_toBottomOf="@id/logo_nav_header"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/_8sdp"
+            android:background="@color/white"
+
+            >
+
+
+
+               <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_5sdp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="USER NAME : "
+
+        android:textStyle="bold"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/black_textColor"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:layout_constraintTop_toBottomOf="@id/logo_nav_header"
+        />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_70sdp"
+        android:text="USER NAME"
+        android:textSize="@dimen/_16sdp"
+        android:textColor="@color/black_textColor"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        app:layout_constraintTop_toBottomOf="@id/logo_nav_header"
+        />
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text="USER Mail : "
+
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/black_textColor"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                    app:layout_constraintTop_toBottomOf="@id/logo_nav_header"
+                    />
+
+                <TextView
+                    android:id="@+id/userMail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:text="USER Mail"
+                    android:layout_marginStart="@dimen/_70sdp"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/black_textColor"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                    app:layout_constraintTop_toBottomOf="@id/logo_nav_header"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:drawableStart="@drawable/ic_baseline_security_24"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text="USER Password : "
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/black_textColor"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                    app:layout_constraintTop_toBottomOf="@id/logo_nav_header"
+                    />
+
+                <TextView
+                    android:id="@+id/userPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="@dimen/_5sdp"
+                    android:text="USER Password"
+                    android:layout_marginStart="@dimen/_70sdp"
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="@color/black_textColor"
+                    app:layout_constraintStart_toStartOf="parent"
+                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                    app:layout_constraintTop_toBottomOf="@id/logo_nav_header"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        app:layout_constraintTop_toBottomOf="@+id/card"
+        android:background="@color/white"
+        />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,7 +6,9 @@
         <entry key="..\:/GreatFood/app/src/main/res/drawable/back.xml" value="0.23" />
         <entry key="..\:/GreatFood/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.23" />
         <entry key="..\:/GreatFood/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.23" />
         <entry key="..\:/GreatFood/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.23" />
+        <entry key="..\:/GreatFood/app/src/main/res/drawable/lightback.xml" value="0.23" />
         <entry key="..\:/GreatFood/app/src/main/res/drawable/tool.xml" value="0.23" />
         <entry key="..\:/GreatFood/app/src/main/res/drawable/white.xml" value="0.23" />
         <entry key="..\:/GreatFood/app/src/main/res/drawable/whiteback.xml" value="0.23" />
@@ -16,9 +18,11 @@
         <entry key="..\:/GreatFood/app/src/main/res/layout/foodrecyclerdesign.xml" value="0.23645833333333333" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_add.xml" value="0.23645833333333333" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_details.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_devoloper.xml" value="0.23645833333333333" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_home.xml" value="0.23645833333333333" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_layout.xml" value="0.23645833333333333" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_logein.xml" value="0.23645833333333333" />
+        <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_profile.xml" value="0.23645833333333333" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/fragment_registration.xml" value="0.23645833333333333" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/nav_header.xml" value="0.23541666666666666" />
         <entry key="..\:/GreatFood/app/src/main/res/layout/toolbar.xml" value="0.23645833333333333" />
