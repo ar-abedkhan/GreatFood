@@ -83,7 +83,6 @@ holder.itemView.setOnClickListener(v -> {
              clicked=true;
        holder.favo.setImageResource(R.drawable.ic_baseline_favorite_24);
 
-
              databaseReference.addValueEventListener(new ValueEventListener() {
                  @Override
                  public void onDataChange(@NonNull DataSnapshot snapshot) {
